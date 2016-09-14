@@ -4,23 +4,23 @@
 
 Submitted by: **Sophia Kecir Camper**
 
-Time spent: **1:30** hours spent in total
+Time spent: **2:30** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
-* [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values. [Time spent: 1:30]
 
 The following **optional** features are implemented:
 * [ ] Custom font
 * [ ] UI animations
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing. [Time spent: 1:00, sources: http://stackoverflow.com/questions/259819/how-do-i-show-the-keyboard-by-default-in-uitextview, http://stackoverflow.com/questions/4130695/setting-a-uitextfield-into-editing-mode-programatically]
 
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 
-## Video Walkthrough 
+## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
@@ -31,6 +31,15 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+To add default cursor and visible keyboard to billField:
+1. Add the following before "override func viewDidLoad()" :
+    override func viewDidAppear(animated: Bool) {
+        // Show keyboard by default
+        billField.becomeFirstResponder()
+    }
+2. "Toggle Software Keyboard" again
+
 
 ## License
 
