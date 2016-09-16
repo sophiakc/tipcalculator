@@ -29,9 +29,11 @@ List anything else that you can get done to improve the app functionality!
 Here's a walkthrough of implemented user stories:
 
 v1: required functionality
+
 ![gif of tipcalculator app](tipcalculatorappv1.gif)
 
 v2: optional / additional functionalities
+
 ![gif of tipcalculator app](tipcalculatorappv2.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
