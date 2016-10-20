@@ -1,6 +1,7 @@
 # Pre-work - *tipcalculator*
 
-**tipcalculator** is a tip calculator application for iOS using Swift.
+**tipcalculator** is a tip calculator application for iOS using Swift. 
+[Challenge](http://courses.codepath.com/snippets/ios_for_designers/thanks_for_applying#heading-prework) part of the application process  for [Codepath](http://codepath.com/iosfordesigners).
 
 Submitted by: [**Sophia Kecir Camper**](http://www.sophiakc.com)
 
